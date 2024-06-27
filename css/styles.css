@@ -160,7 +160,7 @@ img {
   align-items: center;
 }
 
-.nav__color {
+.nav__logo {
   color: var(--title-color);
   font-weight: var(--font-bold);
 }
@@ -174,7 +174,7 @@ cursor: pointer;
 
 /* Navigation for mobile devices */
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1150px){
   .nav__menu {
     position: fixed;
     top: 0;
@@ -204,7 +204,7 @@ cursor: pointer;
 
 .nav__link::after {
   content: '';
-  width: 100px;
+  width: 0;
   height: 2px;
   background-color: var(--first-color-light);
   position: absolute;
@@ -229,7 +229,9 @@ cursor: pointer;
 
 /* Show menu */
 
-
+.show-menu {
+  right: 0;
+}
 
 /* Add blur header */
 
