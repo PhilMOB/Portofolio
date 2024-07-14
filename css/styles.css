@@ -679,7 +679,7 @@ font-weight: var(--font-semi-bold);
 /* For small devices */
 
 @media screen and (max-width: 300px) {
-  .container{
+  .container {
     margin-inline: 1rem;
   }
 
@@ -690,9 +690,9 @@ font-weight: var(--font-semi-bold);
 
 /* For medium devices */
 
-@media screen and (min-windth: 540px){
+@media screen and (min-width: 540px){
   .home__container,
-  .work__container 
+  .work__container, 
   .info__container,
   .services__container,
   .contact__container {
@@ -762,7 +762,7 @@ font-weight: var(--font-semi-bold);
     padding-block: 7rem 5rem;
   }
 
-  .section__title{
+  .section__title {
     margin-bottom: 4rem;
   }
 
@@ -795,6 +795,7 @@ font-weight: var(--font-semi-bold);
 
   .home__name {
     margin-bottom: 1.5rem;
+    white-space: nowrap;
   }
 
   .home__profession::after {
