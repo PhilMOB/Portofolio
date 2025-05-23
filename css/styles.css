@@ -364,8 +364,21 @@ cursor: pointer;
   background-color: var(--container-color);
 }
 
+/*.work__card {
+  background-color: var(--first-color);
+}*/
 .work__card {
   background-color: var(--first-color);
+  min-height: 100%; /* Pour que chaque carte remplisse l’espace disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.work__img {
+  width: 100%;
+  height: 180px; /* ou ajuste selon ce qui rend bien */
+  object-fit: cover;
 }
 
 .work__link {
